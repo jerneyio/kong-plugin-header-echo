@@ -1,6 +1,6 @@
 # kong-plugin-header-echo
 
-A simple Kong plugin that echos a header
+A simple Kong plugin that echos a header. You can find a writeup of how to develop your first plugin for Kong [here](https://www.jerney.io/header-echo-kong-plugin/).
 
 ## How to run it
 
