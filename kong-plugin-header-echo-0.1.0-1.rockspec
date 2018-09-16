@@ -1,13 +1,16 @@
 package = "kong-plugin-header-echo"
 version = "0.1.0-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "git//github.com/JoshTheGoldfish/kong-plugin-header-echo.git"
 }
 description = {
-   homepage = "*** please enter a project homepage ***",
-   license = "*** please specify a license ***"
+   homepage = "https://github.com/JoshTheGoldfish/kong-plugin-header-echo",
+   license = "MIT"
 }
-dependencies = {}
+dependencies = {
+  "lua >= 5.3",
+  "kong >= 0.14"
+}
 build = {
    type = "builtin",
    modules = {
